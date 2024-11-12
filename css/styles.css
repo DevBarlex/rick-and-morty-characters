@@ -73,8 +73,18 @@ table {
 }
 
 ul {  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
   padding-top: 100px;
   list-style: none;
+}
+
+.character-card {
+  width: 300px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 
